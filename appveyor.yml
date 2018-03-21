@@ -6,7 +6,7 @@
     except:
       - master
       - "gh-pages"
-      - gh-pages
+      - 'gh-pages'
 
   before_build:
     - pwsh: dotnet --version
